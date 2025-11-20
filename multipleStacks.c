@@ -1,4 +1,4 @@
-//Write a program to maintain multiple stacks in a single array.
+
 
 #include<stdio.h>
 #include<stdlib.h>

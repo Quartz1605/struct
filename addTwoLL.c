@@ -1,6 +1,4 @@
-// Add two linked list numbers... //Very Good problem
 
-//Algo is reverse the list then add and then again reverse the list..
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -60,7 +58,7 @@ Node* reverseLL(Node* head){
 
   }
 
-  //printf("hey");
+  
 
   return prev;
 
@@ -72,7 +70,7 @@ Node* add(Node* a,Node* b,int carry){
 
   int sum = carry;
 
-  if(a) sum += a->data; //if a and b mat bhoolna warna issue aayega..
+  if(a) sum += a->data; 
   if(b) sum += b->data;
 
   Node* node = createNode(sum%10);

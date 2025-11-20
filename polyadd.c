@@ -93,12 +93,12 @@ void printPoly(Node* head) {
 int main() {
     Node *p1 = NULL, *p2 = NULL;
 
-    // Example polynomial 1: 5x^3 + 4x^1 + 2x^0
+    
     p1 = insertEnd(p1, 5, 3);
     p1 = insertEnd(p1, 4, 1);
     p1 = insertEnd(p1, 2, 0);
 
-    // Example polynomial 2: 3x^3 + 1x^2 + 2x^1
+    
     p2 = insertEnd(p2, 3, 3);
     p2 = insertEnd(p2, 1, 2);
     p2 = insertEnd(p2, 2, 1);

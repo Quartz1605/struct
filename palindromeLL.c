@@ -1,13 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-//Palindrome check in LL...
-
-//Algo is 
-// 1. find middle of the LL using slow fast and reverse the rest half
-// then check whether both have the same data or not
-// if not return 0 if yes return 1;
-
 typedef struct Node{
     int val;
     struct Node* next;

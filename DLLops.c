@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//DLL operations..
+
 
 typedef struct Node
 {
@@ -44,6 +44,7 @@ Node *insertEnd(Node *head, int data)
   return head;
 }
 
+
 Node *afterPos(Node *head, int data, int pos)
 {
 
@@ -75,7 +76,7 @@ Node *afterPos(Node *head, int data, int pos)
   return head;
 }
 
-//Basically we are swapping nodes ka data and not nodes..
+.
 
 Node *sortDLL(Node *head)
 {
@@ -119,7 +120,7 @@ Node *sortDLL(Node *head)
 
 Node* concatenateLists(Node* list1,Node* list2){
 
-  //if sorted concat bola toh just sort kardo end mein..
+ 
 
   if(!list1) return list2;
   if(!list2) return list1;

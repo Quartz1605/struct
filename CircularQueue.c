@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
-//Circular Queue Implementation..
+
 
 typedef struct Queue{
   int front;
@@ -40,7 +40,7 @@ void enqueue(int val, Queue* q){
 
 }
 
-//Check coditions yaha..
+
 int dequeue(Queue* queue){
 
   if(isEmpty(queue)){
@@ -65,7 +65,7 @@ bool isEmpty(Queue* queue){
 
 }
 
-//Check this;
+
 int isFull(Queue* queue){
 
   return q->front == ((q->rear+1)%(q->capacity));

@@ -1,5 +1,3 @@
-//Evaluation of postfix
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
@@ -54,31 +52,6 @@ int performOp(int a,char op,int b){
   else return -1;
 
 }
-
-//LOGIC : 
-/* 
-  Algorithm EvaluatePostfix(exp):
-
-    Create an empty stack S
-
-    for each symbol ch in exp:
-        
-        if ch is an operand:
-            push(ch) into S
-
-        else if ch is an operator:
-            op2 = pop(S)
-            op1 = pop(S)
-
-            result = ApplyOperator(op1, op2, ch)
-
-            push(result) into S
-
-    end for
-
-    return pop(S)
-
-*/
 
 void evaluatePostfix(char postfix[]){
   

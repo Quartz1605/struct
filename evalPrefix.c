@@ -1,5 +1,3 @@
-//Evaluation of prefix
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
@@ -57,18 +55,6 @@ int performOp(int a,char op,int b){
 
 }
 
-//LOGIC : 
-/* 
-  Algorithm EvaluatePrefix(exp):
-
-  1. Reverse the og equation.
-  2. Ops is n1(first popped) op n2(second popped)
-  3. Rest is same as Postfix..
-  4. Two digit elements ke liye nahi chalra code filhall bhi..
-
-  
-
-*/
 
 void evaluatePrefix(char prefix[]){
   

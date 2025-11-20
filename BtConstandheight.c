@@ -1,4 +1,3 @@
-// Create binary tree and inorder traversal and count height
 
 #include<stdio.h>
 #include<stdlib.h>

@@ -1,4 +1,3 @@
-//Conversion of Infix expression to postfix expression using stack.
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>

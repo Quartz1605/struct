@@ -1,4 +1,4 @@
-// Removing duplicates from Sorted LL
+
 
 #include <stdio.h>
 #include <stdlib.h>
