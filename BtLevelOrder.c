@@ -73,20 +73,4 @@ int main(){
 
 
 
-/*if (root == NULL) return;
-
-    
-    int front = 0, rear = 0;
-    int maxNodes = 100;
-    Node* queue[100];
-
-    queue[rear++] = root;
-
-    while (front < rear) {
-      
-      Node* curr = queue[front++];
-      printf("%d ", curr->data);
-      if (curr->left != NULL) queue[rear++] = curr->left;
-      if (curr->right != NULL) queue[rear++] = curr->right;
-
-    }*/
+/

@@ -42,9 +42,9 @@ void inorder(Node* root){
 
   if(root ==  NULL) return;
 
-  inorder(root->left);
-  printf("%d ",root->data);
   inorder(root->right);
+  printf("%d ",root->data);
+  inorder(root->left);
 
 }
 

@@ -36,19 +36,12 @@ int findIndex(int inorder[],int start,int end,int n){
 
 }
 
-// take value from preorder and increment the preIndex global variable.
-// Create node from the value;
-// check if start == end if yes then return the node.
-// find pos of value in inorder array
-// recursively make root->left = same function but start,pos-1
-//recursively make root->right = same function but pos+1,end
-// return the node..
+
 
 
 Node* buildTree(int preorder[],int inorder[],int start,int end){
 
-  //printf("yo ");
-  //printf("%d ",preIndex);
+  
   
   if(end < start) return NULL;
 
@@ -73,7 +66,7 @@ void postorder(Node* root){
   
 
   if(root != NULL){
-    //printf("hello");
+   
 
     postorder(root->left);
     postorder(root->right);
@@ -92,7 +85,7 @@ int main() {
 
     Node* root = buildTree(preorder, inorder, 0, 6);
 
-    //printf("Postorder: ");
+    
     postorder(root);
     printf("\n");
 
