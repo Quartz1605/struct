@@ -1,5 +1,3 @@
-//create BT and traverse it level by level..
-
 #include<stdio.h>
 #include<stdlib.h>
 
